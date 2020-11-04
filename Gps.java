@@ -30,4 +30,10 @@ public class Gps {
             power += amount;
         }
     }
+
+    @Override
+    public String toString(){
+        return
+        "Power Level: "+power+"\nis on: "+isOn+"Current destination: "+destination;
+    }
 }
